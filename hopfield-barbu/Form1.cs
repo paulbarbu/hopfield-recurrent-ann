@@ -19,7 +19,7 @@ namespace hopfield_barbu
         }
 
         private static readonly int N = 10;
-        private Size BtnSize  =new Size(30, 30);
+        private Size BtnSize = new Size(30, 30);
         
         private Matrix<double> srcGrid = Matrix<double>.Build.Dense(N, N, -1);
         private Matrix<double> dstGrid = Matrix<double>.Build.Dense(N, N, -1);
